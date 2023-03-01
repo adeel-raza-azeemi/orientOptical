@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/orient.optical/app/Models/Customer_order.php</file>
+            <file>file:/var/www/html/orient.optical/app/Models/Previous_record.php</file>
+            <file>file:/var/www/html/orient.optical/app/Models/Customer.php</file>
+            <file>file:/var/www/html/orient.optical/database/sql/sohail_initial_dump.sql</file>
+            <file>file:/var/www/html/orient.optical/app/Http/Controllers/CustomerController.php</file>
+        </group>
+    </open-files>
+</project-private>

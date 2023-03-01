@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="model.erd">
+	<entities>
+		<data-source id="mariaDB-182eece157d-35251033565b207b">
+			<entity id="1" name="cities" fq-name="id19150315_optical.cities" order="5" color-bg="248,228,92" x="272" y="531">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="2" name="customer_order" fq-name="id19150315_optical.customer_order" order="6" color-bg="181,131,90" x="350" y="778">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="3" name="failed_jobs" fq-name="id19150315_optical.failed_jobs" order="7" color-bg="255,163,72" x="1082" y="611">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="4" name="migrations" fq-name="id19150315_optical.migrations" order="8" color-bg="255,163,72" x="965" y="612">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="5" name="password_resets" fq-name="id19150315_optical.password_resets" order="9" color-bg="255,163,72" x="963" y="484">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="6" name="personal_access_tokens" fq-name="id19150315_optical.personal_access_tokens" order="10" color-bg="255,163,72" x="1210" y="484">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="7" name="previous_record" fq-name="id19150315_optical.previous_record" order="11" color-bg="181,131,90" x="140" y="770">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="8" name="users" fq-name="id19150315_optical.users" order="12" color-bg="255,163,72" x="789" y="486">
+				<path name="id19150315_optical"/>
+			</entity>
+			<entity id="9" name="category" fq-name="sakila.category" order="13" color-bg="87,227,137" x="1003" y="86">
+				<path name="sakila"/>
+			</entity>
+			<entity id="10" name="city" fq-name="sakila.city" order="14" color-bg="248,228,92" x="127" y="535">
+				<path name="sakila"/>
+			</entity>
+			<entity id="11" name="customer" fq-name="sakila.customer" order="15" color-bg="248,228,92" x="520" y="67">
+				<path name="sakila"/>
+			</entity>
+			<entity id="12" name="film" fq-name="sakila.film" order="16" color-bg="87,227,137" x="790" y="72">
+				<path name="sakila"/>
+			</entity>
+			<entity id="13" name="film_category" fq-name="sakila.film_category" order="17" color-bg="87,227,137" x="1222" y="132">
+				<path name="sakila"/>
+			</entity>
+			<entity id="14" name="inventory" fq-name="sakila.inventory" order="18" color-bg="87,227,137" x="1032" y="241">
+				<path name="sakila"/>
+			</entity>
+			<entity id="15" name="payment" fq-name="sakila.payment" order="19" color-bg="181,131,90" x="525" y="777">
+				<path name="sakila"/>
+			</entity>
+			<entity id="16" name="customer_list" fq-name="sakila.customer_list" order="20" color-bg="192,97,203" x="802" y="858">
+				<path name="sakila"/>
+			</entity>
+			<entity id="17" name="film_list" fq-name="sakila.film_list" order="21" color-bg="192,97,203" x="1209" y="855">
+				<path name="sakila"/>
+			</entity>
+			<entity id="18" name="sales_by_film_category" fq-name="sakila.sales_by_film_category" order="22" color-bg="192,97,203" x="964" y="860">
+				<path name="sakila"/>
+			</entity>
+			<entity id="19" name="FRSubDivision" fq-name="srsp_hrdc.FRSubDivision" order="23" color-bg="248,228,92" x="295" y="359">
+				<path name="srsp_hrdc"/>
+			</entity>
+			<entity id="20" name="district" fq-name="srsp_hrdc.district" order="24" color-bg="248,228,92" x="183" y="63">
+				<path name="srsp_hrdc"/>
+			</entity>
+			<entity id="21" name="tehsil" fq-name="srsp_hrdc.tehsil" order="25" color-bg="248,228,92" x="140" y="352">
+				<path name="srsp_hrdc"/>
+			</entity>
+		</data-source>
+	</entities>
+	<notes>
+		<note id="22" order="4" color-bg="249,240,107" color-fg="0,0,0" x="48" y="20" w="688" h="712">Customer Data</note>
+		<note id="23" order="26" color-bg="229,165,10" color-fg="0,0,0" x="76" y="676" w="172" h="36">Customer Related Data</note>
+		<note id="24" order="3" color-bg="205,171,143" color-fg="0,0,0" x="48" y="746" w="688" h="453">Business</note>
+		<note id="25" order="27" color-bg="134,94,60" x="102" y="1148" w="246" h="38">Data required to run the business</note>
+		<note id="26" order="2" color-bg="143,240,164" color-fg="0,0,0" x="752" y="22" w="730" h="420">Inventory</note>
+		<note id="27" order="28" color-bg="46,194,126" x="808" y="384" w="150" h="40">Optical Database</note>
+		<note id="28" order="1" color-bg="255,190,111" color-fg="0,0,0" x="752" y="456" w="732" h="368">System</note>
+		<note id="29" order="29" color-bg="255,120,0" color-fg="0,0,0" x="788" y="762" w="134" h="38">System Tables</note>
+		<note id="30" order="0" color-bg="220,138,221" x="752" y="834" w="732" h="362">Views</note>
+		<note id="31" order="30" color-bg="145,65,172" x="788" y="1108" w="333" h="37">Special View on certain data used for apprisals</note>
+	</notes>
+	<relations>
+		<relation name="fk_film_category_category" fq-name="sakila.film_category.fk_film_category_category" type="fk" pk-ref="9" fk-ref="13"/>
+		<relation name="fk_payment_customer" fq-name="sakila.payment.fk_payment_customer" type="fk" pk-ref="11" fk-ref="15"/>
+		<relation name="fk_film_category_film" fq-name="sakila.film_category.fk_film_category_film" type="fk" pk-ref="12" fk-ref="13"/>
+		<relation name="fk_inventory_film" fq-name="sakila.inventory.fk_inventory_film" type="fk" pk-ref="12" fk-ref="14"/>
+		<relation name="FRSubDivision_ibfk_1" fq-name="srsp_hrdc.FRSubDivision.FRSubDivision_ibfk_1" type="fk" pk-ref="20" fk-ref="19"/>
+		<relation name="tehsil_ibfk_1" fq-name="srsp_hrdc.tehsil.tehsil_ibfk_1" type="fk" pk-ref="20" fk-ref="21"/>
+	</relations>
+</diagram>
